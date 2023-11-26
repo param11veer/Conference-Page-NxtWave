@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+*{
+    margin: 0px;
+    font-family: "Roboto";
+}
+
+.bg-container{
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/conference-img.png");
+    width: 100vw;
+    height: 40vh;
+    background-size: cover;
+}
+
+.card-container{
+    text-align: center;
+    /* margin-left: 100px; */
+    margin: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.heading{
+    color: #183b56;
+    font-weight: bold;
+}
+
+.para{
+    color: #5a7184;
+    margin: 35px;
+}
+
+.heading-2{
+    color: #183b56;
+    font-weight: bold;
+    font-size: 32px;
+}
+.para-2{
+    color: #5a7184;
+    font-size: 20px;
+}
+
+.card-2{
+    text-align: center;
+    margin: 30px;
+}
+
+.heading-3{
+    color: #183b56;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.para-3{
+    color: #5a7184;
+    font-size: 20px;
+}
+
+.card-setup{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card-setup-1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 70px;
+}
+
+.card-setup-2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.button-2{
+    text-align: center;
+    margin-top: 20px;
+}
